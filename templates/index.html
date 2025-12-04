@@ -1,6 +1,10 @@
+<!DOCTYPE html>
+<html lang="en"></html>
 <head>
-    <meta name = "viewport" content="width=device-width, initial-scale=1"
+    <meta charset="UTF-8"
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+    <title>6101 wyx</title>
 </head>
 
 <body>
@@ -8,7 +12,9 @@
         <h2>welcome to 6101 Web DApp</h2>
         <p>Please enter your user name</p>
         <form action="/main" method="post">
+            <input type="text" name="q">
             <input type="submit" value="Enter">
         </form>
     </div>
 </body>
+</html>
